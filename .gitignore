@@ -1,4 +1,14 @@
-.Rproj.user
+# API Keys and Secrets
+.env
+
+# Data Files (Don't push large CSVs or XMLs to GitHub)
+*.csv
+*.XML
+*.xml
+results/
+
+# R-specific files
 .Rhistory
 .RData
 .Ruserdata
+.Rproj.user/
